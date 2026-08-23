@@ -56,6 +56,12 @@ Klik nama skill untuk membaca panduan lengkapnya.
 |---|---|
 | [playwright-expert](./playwright-expert/SKILL.md) | E2E testing, browser automation, dan debugging Playwright |
 
+## Spreadsheets
+
+| Skill | Kegunaan |
+|---|---|
+| [xlsx](./xlsx/SKILL.md) | Membuat, mengedit, menganalisis, dan memvalidasi file spreadsheet |
+
 ## MongoDB
 
 | Skill | Kegunaan |
