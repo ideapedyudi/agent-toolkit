@@ -32,6 +32,18 @@
         "@playwright/mcp@latest"
       ],
       "enabled": true
+    },
+    "hoppscotch": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@hoppscotch/mcp-server"
+      ],
+      "environment": {
+        "HOPPSCOTCH_SERVER_URL": ""
+      },
+      "enabled": true
     }
   }
 }
