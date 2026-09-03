@@ -98,3 +98,9 @@ Klik nama skill untuk membaca panduan lengkapnya.
 | [figma-use-figjam](./figma-use-figjam/SKILL.md) | Penggunaan Figma MCP dalam konteks FigJam |
 | [figma-use-motion](./figma-use-motion/SKILL.md) | Animasi dan motion melalui Figma MCP |
 | [figma-use-slides](./figma-use-slides/SKILL.md) | Penggunaan Figma MCP dalam konteks Slides |
+
+## Icons
+
+| Skill | Kegunaan |
+|---|---|
+| [solar-icons](./solar-icons/SKILL.md) | Menambahkan dan mengelola Solar Icons di berbagai framework |
