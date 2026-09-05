@@ -1,6 +1,6 @@
-# Agent Coder Forge
+# Agent Toolkit
 
-A forge for coding agents: shape reusable commands, skills, and plugins you can use across any agent.
+A Toolkit for coding agents: shape reusable commands, skills, and plugins you can use across any agent.
 
 Works with any coding agent that supports custom skills, slash commands, or plugins (for example: OpenCode, Claude Code, Cursor, Codex, Windsurf, Continue, Aider, and similar tools).
 
@@ -16,14 +16,14 @@ Works with any coding agent that supports custom skills, slash commands, or plug
 ## Clone
 
 ```bash
-git clone https://github.com/ideapedyudi/agent-coder-forge.git
-cd agent-coder-forge
+git clone https://github.com/ideapedyudi/agent-toolkit.git
+cd agent-toolkit
 ```
 
 Optional: pin to a specific folder name for your agent:
 
 ```bash
-git clone https://github.com/ideapedyudi/agent-coder-forge.git ~/.config/agent-coder-forge
+git clone https://github.com/ideapedyudi/agent-toolkit.git ~/.config/agent-toolkit
 ```
 
 ## Use with any coding agent
@@ -42,8 +42,8 @@ Use this when your agent can load external skill/command directories.
 
 ```bash
 # example paths — adjust to your agent
-ln -s "$(pwd)/skills" ~/.agents/skills/agent-coder-forge
-ln -s "$(pwd)/commands" ~/.agents/commands/agent-coder-forge
+ln -s "$(pwd)/skills" ~/.agents/skills/agent-toolkit
+ln -s "$(pwd)/commands" ~/.agents/commands/agent-toolkit
 ```
 
 ### Option B: Copy only what you need
@@ -58,19 +58,19 @@ cp -R commands/* ~/.agents/commands/
 From any project:
 
 ```bash
-git clone https://github.com/ideapedyudi/agent-coder-forge.git .agent-coder-forge
+git clone https://github.com/ideapedyudi/agent-toolkit.git .agent-toolkit
 ```
 
 Then configure your coding agent to read:
 
-- `.agent-coder-forge/skills`
-- `.agent-coder-forge/commands`
-- `.agent-coder-forge/plugins` (if supported)
+- `.agent-toolkit/skills`
+- `.agent-toolkit/commands`
+- `.agent-toolkit/plugins` (if supported)
 
 ## Keep it updated
 
 ```bash
-cd agent-coder-forge
+cd agent-toolkit
 git pull
 ```
 
