@@ -2,7 +2,6 @@
 description: Stage all changes, commit with an auto-generated Conventional
   Commits message in English, and push to the remote.
 agent: build
-model: opencode-go/deepseek-v4-flash
 ---
 
 Commit and push the current git changes immediately. Do not create a todo list or ask for confirmation unless there is a merge conflict, authentication issue, or another blocking error.
