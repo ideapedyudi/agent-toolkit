@@ -10,6 +10,7 @@ Works with any coding agent that supports custom skills, slash commands, or plug
 .
 ├── commands/   Custom slash commands
 ├── plugins/    Agent plugins
+├── mcps/    Agent mcp
 └── skills/     Reusable agent skills and references
 ```
 
@@ -35,6 +36,7 @@ Point your agent to this repository (or copy the folders it supports):
 | `skills/` | Workflow guides (`SKILL.md`) | Most agents with skill loading |
 | `commands/` | Slash-command prompts | Agents with custom commands |
 | `plugins/` | Runtime hooks / helpers | Agents with plugin systems |
+| `mcps/` | External tools, resources, and integrations via MCP | Agents with MCP support |
 
 ### Option A: Link the whole repo
 
@@ -65,7 +67,8 @@ Then configure your coding agent to read:
 
 - `.agent-toolkit/skills`
 - `.agent-toolkit/commands`
-- `.agent-toolkit/plugins` (if supported)
+- `.agent-toolkit/plugins`
+- `.agent-toolkit/mcps`
 
 ## Keep it updated
 
