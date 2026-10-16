@@ -1,8 +1,6 @@
 ---
 description: Stage all changes and commit with an auto-generated Conventional
   Commits message in English.
-agent: build
-model: opencode-go/deepseek-v4-flash
 ---
 
 Analyze the current git changes and commit them.

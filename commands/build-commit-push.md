@@ -1,7 +1,6 @@
 ---
 description: Run npm run build, stage all changes, commit with an
   auto-generated Conventional Commits message in English, and push to the remote.
-agent: build
 ---
 
 Build, then commit and push the current git changes immediately. Do not create a todo list or ask for confirmation unless there is a build failure, merge conflict, authentication issue, or another blocking error.

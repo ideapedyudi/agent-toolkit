@@ -44,6 +44,11 @@
         "HOPPSCOTCH_SERVER_URL": ""
       },
       "enabled": true
+    },
+    "markitdown": {
+      "type": "local",
+      "command": [],
+      "enabled": true
     }
   }
 }
